@@ -2,6 +2,6 @@
 console.log("Welcome to my portfolio!");
 
 // Make header text fade in
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
   document.querySelector("header").style.opacity = 1;
-};
+});
